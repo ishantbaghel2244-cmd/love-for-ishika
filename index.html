@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For Ishika ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+    .box {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      width: 280px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    button {
+      background: #ff4d6d;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box" id="content">
+    <h2>Ishika ❤️</h2>
+    <p>Will you trust me?</p>
+    <button onclick="showLove()">Yes</button>
+  </div>
+
+  <script>
+    function showLove() {
+      document.getElementById("content").innerHTML = `
+        <h2>💖 Ishika 💖</h2>
+        <p>
+          I am sorry…<br><br>
+          मैं change होना चाहता हूँ,<br>
+          तुम बस मुझ पर भरोसा रखो 🤍<br><br>
+          मैं तुम्हें सच में बहुत प्यार करता हूँ ❤️
+        </p>
+      `;
+    }
+  </script>
+
+</body>
+</html>
